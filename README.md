@@ -1,2 +1,2 @@
-# Clubes-de-ciencia-challenge-
-esta es una plantilla para pagina web de clubes challenge 2020
+# Clubes de Ciencias México 2021
+https://cdecmx-org.github.io/proyectos-2021-club_6_2/
