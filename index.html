@@ -146,16 +146,21 @@
                                 dimensionalidad es el proceso de reducir el número de características que describen algunos datos. 
                                 Cuando hablamos de encoder, nos referimos al proceso que produce la representación de “nuevas características” a 
                                 partir de las “viejas características”, y decoder al proceso inverso. La reducción de datos puede interpretarse 
-                                como una compresión de los mismos, donde el codificador los comprime, mientras que el decodificador realiza lo contrario.</p> <!-- INSERTAR TEXTO-->
+                                como una compresión de los mismos, donde el codificador los comprime, mientras que el decodificador realiza lo contrario.</div> <!-- INSERTAR TEXTO-->
                             <p>El objetivo principal de un método de reducción de dimensionalidad es encontrar el mejor par codificador/decodificador 
-                                entre una familia dada. El par que conserve el máximo de información al codificar y mínimo de error de reconstrucción al decodificar.</div>
+                                entre una familia dada. El par que conserve el máximo de información al codificar y mínimo de error de reconstrucción al decodificar.</p>
+                            <p>Teniendo esto en cuenta, los autoencoders consisten en configurar un codificador y un decodificador como redes neuronales y aprender 
+                                el mejor esquema de codificación-decodificación mediante un proceso de optimización iterativo (repitiéndolo varias veces). </p>
+                            <p>Entonces, un variational autoencoder puede definirse como como un auto codificador cuya formación se regulariza para 
+                                evitar sobreajuste (sobreentrenamiento de nuestro algoritmo) y garantizar que el espacio latente tenga buenas propiedades 
+                                que permitan el proceso generativo.y la mezcla de las redes neuronales con distribuciones de probabilidad.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <img scr="assets/img/info.jpg">   <!-- INSERTAR UNA IMAGEN-->    
+            <img scr="assets/img/autoencoder.png">   <!-- INSERTAR UNA IMAGEN-->    
                     
                     
                     
